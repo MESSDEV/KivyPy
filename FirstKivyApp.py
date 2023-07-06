@@ -66,7 +66,7 @@ class SecondScr(Screen):
       self.add_widget(vl)
       btn_false.on_press = self.change_text
   def change_text(self):
-      self.txt.text = self.input.text + '? Didn't work ...'      
+      self.txt.text = self.input.text + '? Didn\'t work ...'      
 class ThirdScr(Screen):
   def __init__(self, **kwargs):
       super().__init__(**kwargs)
